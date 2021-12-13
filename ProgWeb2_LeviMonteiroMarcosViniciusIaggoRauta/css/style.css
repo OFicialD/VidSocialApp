@@ -1,0 +1,110 @@
+body {
+	text-align:center; 
+	background-color:white; 
+	font-size:100%;
+	font-family: "Verdana", sans-serif;
+}
+.alinhamento {
+	margin-left: auto;
+	margin-right: auto;
+}
+.div {
+	background-color: #FF0000;
+	overflow: hidden;
+}
+.div a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.div a:hover {
+	background-color: white;
+}
+img{
+	height: 150px;
+	width: 150px;
+}
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: "Verdana", sans-serif;
+	font-size: 12pt;
+}
+
+body{
+	background-color:white;
+	overflow-x: hidden;
+}
+
+.tamanhogif{
+	height: 300px;
+	width: 300px;
+}
+
+.header{
+	background-color:white;
+	box-shadow:
+	0px 3px 5px -1px rgba(0, 0, 0, 0.3),
+	0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+	0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.header_toobar{
+	padding-left: 10px;
+	box-shadow:
+	0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+	0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+	0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+}
+
+.header_slogan{
+	font-weight: bold;
+	padding-top: 10px;
+	
+}
+
+.header_content{
+	height: 700px;
+	width: center;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	background:white;
+}
+
+.header_slogan{
+	font-weight: bold;
+	padding-top: 115px;
+	
+}
+.tamanhoimg{
+	height: 150px;
+	width: 300px;
+}
+	
+
+.div {
+  background-color: #FF0000;
+  overflow: hidden;
+}
+
+
+.div a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.div a:hover {
+  background-color: #B22222;
+}
+
+
+	
