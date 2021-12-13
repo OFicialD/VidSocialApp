@@ -4,6 +4,20 @@ body {
 	font-size:100%;
 	font-family: "Verdana", sans-serif;
 }
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;/*tamanho mÃ¡ximo da seÃ§Ã£o*/
+	margin: 0 auto; /*centraliza na margem automaticamente*/
+}
+
+/*significa filho-direto do elemento. Seleciona todos os filhos-diretos do elemento.*/
+.flex > div{
+	/*flex-grow, flex-shrink, and flex-basis*/
+	flex: 1 1 200px;
+	margin: 10px;
+
+}
 .alinhamento {
 	margin-left: auto;
 	margin-right: auto;
@@ -24,8 +38,8 @@ body {
 	background-color: white;
 }
 img{
-	height: 150px;
-	width: 150px;
+	max-width:100% /*expandem no mÃ¡ximo atÃ© 100%*/
+	display: block;
 }
 html, body{
 	margin: 0;
