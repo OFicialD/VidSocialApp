@@ -10,16 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VidSocialApp">
         <activity
-            android:name=".Inicial"
-            android:exported="false" />
-        <activity
-            android:name=".usuario"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
